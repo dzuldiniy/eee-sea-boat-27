@@ -285,7 +285,7 @@ void findDuckIdentity() {
     }
   }
 
-  message = "Personalised Name: " + personalised_name + "<br>Radio Frequency: " + radioFreq + "<br>IR Frequency: " + IRFreq + "<br>Magnetic Direction: " + magneticDir;
+  message = "Personalised Name: " + personalised_name + "<br>Radio Frequency: " + radioFreq + " Hz<br>IR Frequency: " + IRFreq + " Hz<br>Magnetic Direction: " + magneticDir;
 
   server.send(200, F("text/plain"), message);
 
